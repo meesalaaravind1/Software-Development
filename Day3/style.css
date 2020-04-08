@@ -1,0 +1,34 @@
+h1 {
+    border: 5px solid rgb(33, 10, 165);
+    border-style: double;
+    box-sizing: content-box;
+    position: sticky;
+  }
+
+table{
+    border: 2px solid black;
+    border-style: solid;
+    border-collapse: collapsex;
+}
+
+td{
+    border: 2px solid black;
+    border-style: solid;
+}
+th{
+    border: 2px solid black;
+    border-style: solid;
+}
+img{
+    border: 10px solid white;
+}
+div {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+p{
+    margin-right: 1000px;
+}
+
