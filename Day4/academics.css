@@ -1,0 +1,117 @@
+#navbar {
+  font-weight: bolder;
+  font-size: 24px;
+  background-color: black;
+  position: relative;
+  border-radius: 30px;
+  background-origin: padding-box;
+}
+
+a.list-group-item:hover {
+  background-color: black;
+  color: yellow;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+a.list-group-item {
+  background-color: black;
+  font-weight: bolder;
+}
+
+.nav-item:hover {
+  background-color: red;
+}
+
+#navbarNav {
+  float: right;
+}
+
+header {
+  background-color: gray;
+}
+
+#tws {
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+#tws2 {
+  color: white;
+  background-color: black;
+  border-radius: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 40px;
+}
+
+#fullpage {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h2 {
+  margin-top: 5%;
+}
+
+table {
+  text-align: center;
+}
+
+.success, .warning, .error, .cloud {
+  font-family: sans-serif;
+  font-size: larger;
+  font-weight: bolder;
+  border-radius: 20px;
+  color: #301d9c;
+  padding: 2%;
+  color: red;
+}
+
+.success {
+  background-color: #000008;
+}
+
+.warning {
+  background-color: #040486;
+}
+
+.error {
+  background-color: cyan;
+}
+
+.cloud {
+  background-color: lightblue;
+}
+
+#vnv ul {
+  margin: 0;
+  padding: 1%;
+  list-style: none;
+  background-color: white;
+}
+
+#vnv li {
+  display: inline-block;
+  background-color: black;
+  border-radius: 20px;
+}
+
+#vnv a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+/*# sourceMappingURL=academics.css.map */

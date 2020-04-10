@@ -1,0 +1,98 @@
+header{
+    font-family: sans-serif;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    background-color: gray;
+}
+#titl{
+    font-weight: bolder;
+    font-stretch: expanded;
+    text-align: center;
+}
+#desc{
+    font-size: 35px;
+}
+#school{
+    margin-top: 80px;
+    margin-right :10px;
+    margin-left : 20%;
+    font-size:25px;
+
+}
+#schoolborder{
+    border: 5px solid;
+    border-color:black;
+    border-radius: 10%;
+    background-color:#C3CFF9;
+    margin-left : -15%
+}
+#narayanaimg{
+    float : left;
+    margin-top:70px;
+    margin-right: 10px;
+    border :5px solid;
+    border-color:  black;
+}
+
+#inter{
+    font-size: 25px;
+    margin-left: 300px;
+    margin-top: 50px
+}
+#gitamborder{
+    border: 5px solid;
+    border-color:black;
+    /* border-radius: 20%; */
+    border-bottom-left-radius: 20%;
+    border-top-left-radius: 20%;
+    background-color:#C3CFF9;
+    font-size: 25px;
+    margin-right: -15%;
+}
+#gitamimg{
+    float : right;
+    margin-top:70px;
+    margin-right: 20%;
+    margin-left: 10px;
+    border :5px solid;
+    border-color:  black;
+}
+#msitborder{
+    font-size: 25px;
+}
+#msitimg{
+    float : left;
+    margin-top:70px;
+    margin-right: 50px;
+    margin-left: 10px;
+    border :5px solid;
+    border-color:  black;
+}
+button {
+    background-color: #0C1C57;
+    border: 5px;
+    color: WHITE;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+button:hover {
+background-color: red;
+}
+#navbar{
+    font-weight: bolder;
+    font-size: 24px;
+    background-color: black;
+    position: fixed ;
+}
+.nav-item:hover{
+    background-color: red;
+
+}
+#navbarNav{
+    float:right;
+}
