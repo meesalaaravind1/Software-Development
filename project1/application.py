@@ -4,8 +4,6 @@ from flask_session import Session
 from flask_sqlalchemy import SQLAlchemy
 from datetime import datetime as dt
 from models import User,db
-from imports import Book
-import csv
 
 
 app = Flask(__name__)
@@ -54,7 +52,7 @@ def register():
             db.session.commit()
             a=User.query.all()
             print(a)
-            return render_template("login.html",name=mail)
+            return render_template("register.html",name=mail)
         except:
             error="You have already registered with this email"
             return render_template("register.html",message=error)
